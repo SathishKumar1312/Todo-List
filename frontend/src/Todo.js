@@ -9,7 +9,7 @@ function Todo() {
   const [editId,setEditId] = useState(-1);
   const [editTitle,setEditTitle] = useState('');
   const [editDesc,setEditDesc] = useState('');
-  const apiurl = 'http://localhost:5000/';
+  const apiurl = 'https://todo-list-l8oa.onrender.com/';
 
   useEffect(() => {
     getTodo();
